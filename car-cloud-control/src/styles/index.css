@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 body {
-  margin: 0;
-  background: #0F1621;
+  min-height: 100vh;
+  background-color: #0F1621;
+  background-image:
+          radial-gradient(circle at 0 100%, #2D4341 0%, #0F1621 30%, transparent 40%),
+          radial-gradient(circle at 100% 70%, #2D4341 0%, #0F1621 30%, transparent 40%);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   color: white;
@@ -10,8 +15,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
-

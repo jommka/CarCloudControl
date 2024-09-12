@@ -6,6 +6,13 @@
 
 .App {
   padding: 60px 92px;
-  margin: 0 100px;
+  margin: 0 100px -50px;
 }
 
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
