@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/Footer.css';
 import facebook from './icon/facebook.svg'
 import insta from './icon/insta.svg'
 import whatsapp from './icon/whatsapp.svg'
@@ -13,9 +12,9 @@ import icon from "./icon/icon.svg";
 const Footer = () => {
     return (
         <footer>
-            {/*<div className="footer_block"></div>*/}
             <div className="footer_block">
-                <div className="column_nav_bar">
+                <div className="column_nav_bar" style={{ width: '65%' }}>
+
                     <img src={icon} alt="Car Cloud Control"/>
                     <hr style={{width: "100%", size: "1", opacity: '0.13'}}/>
                     <div className="communication_footer">
@@ -26,19 +25,22 @@ const Footer = () => {
                         <button className="button_communication_footer"><img src={twit} alt="twit"></img></button>
                     </div>
                 </div>
-                <div className="column_nav_bar" style={{ flexDirection: 'row', justifyContent: "space-between" }}>
+                <div className="column_nav_bar" style={{ flexDirection: 'row', justifyContent: "space-between", margin: '0 50px 0 50px'}}>
                     <ul id="footer_column">
-                        <div className="nav_title">
-                            <hr/>
+                        <div className=" nav_title">
+                            <div id="hr_block">
+                                <hr/>
+                            </div>
                             <p>Компания</p>
                         </div>
                         <li><img src={arrow} alt="arrow"/>О компании</li>
                         <li><img src={arrow} alt="arrow"/>Команда</li>
-
                     </ul>
-                    <ul id="footer_column">
-                    <div className="nav_title">
-                            <hr/>
+                    <ul id="footer_column" style={{ marginLeft: '50px' }}>
+                        <div className="nav_title">
+                            <div id="hr_block">
+                                <hr/>
+                            </div>
                             <p>Помощь</p>
                         </div>
                         <li><img src={arrow} alt="arrow"/>Вопрос-ответ</li>

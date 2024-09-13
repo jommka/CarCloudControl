@@ -16,3 +16,9 @@ ul {
 a{
   text-decoration: none;
 }
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
