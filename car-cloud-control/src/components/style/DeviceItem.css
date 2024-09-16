@@ -1,0 +1,58 @@
+.device-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    border-radius: 26px;
+    width: 170px;
+    padding: 20px 25px;
+    background-color: #141D2C;
+    box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.device-item:hover{
+    transform: scale(1);
+    box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+}
+
+.device-item h1,
+.device-item p,
+.device-item span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.device-item p {
+    color: #BCBCBC;
+}
+
+.device-item button {
+    display: flex;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background 0.5s;
+}
+
+.device-item button:active {
+    transform: scale(0.98);
+}
+
+
+.device-item button img {
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    /*object-fit: contain;*/
+    width: 17px;
+    height: 17px;
+}
+
+.device-item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}

@@ -3,6 +3,7 @@ footer {
     border-radius: 58px 58px 0 0;
     height: 511px;
     width: 100%;
+    margin-top: 100px;
 }
 
 .footer_block {
@@ -117,6 +118,10 @@ footer {
 
 .button_communication_footer:hover {
     background: #555c59;
+}
+
+.button_communication_footer:active {
+    transform: scale(0.98);
 }
 
 

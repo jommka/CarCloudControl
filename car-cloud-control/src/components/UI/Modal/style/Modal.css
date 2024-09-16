@@ -1,0 +1,37 @@
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    background-color: rgba(15, 22, 33, 0.7);
+    backdrop-filter: blur(5px);
+    margin: 0;
+    padding: 0;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #272C35;
+    padding: 20px 40px;
+    border-radius: 29px;
+}
+
+.modal-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    border-left: 1px solid #8FFFBD;
+    height: 300px;
+}

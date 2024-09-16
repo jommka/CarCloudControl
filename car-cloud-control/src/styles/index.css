@@ -4,8 +4,8 @@ body {
   min-height: 100vh;
   background-color: #0F1621;
   background-image:
-          radial-gradient(circle at 0 100%, #2D4341 0%, #0F1621 30%, transparent 40%),
-          radial-gradient(circle at 100% 70%, #2D4341 0%, #0F1621 30%, transparent 40%);
+          radial-gradient(circle at 0 80%, #2D4341 10%, #0F1621 40%, transparent 5%),
+          radial-gradient(circle at 100% 45%, #2D4341 10%, #0F1621 30%, transparent 5%);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
