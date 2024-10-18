@@ -1,16 +1,12 @@
 import React from 'react';
 import add from "../Header/icon/add.svg";
-import './style/Modal.css'
+import './style/Modal.sass'
 import output from "../../icon/output.png";
 import usePasswordToggle from "../../../hooks/usePasswordToggle";
 
 const Modal = ({ show, onCloseButtonClick }) => {
     const [PasswordInputType, ToggleIcon] = usePasswordToggle()
-
-    if (!show) {
-        return null;
-    }
-
+    if (!show) return null;
     return (
         <div className="modal-wrapper">
             <div style={{display: "flex", alignItems: "center", justifyContent: 'center', height: '100%'}}>
@@ -24,20 +20,13 @@ const Modal = ({ show, onCloseButtonClick }) => {
                                 <input type="text" required spellCheck="false"></input>
                                 <label>Логин</label>
                             </div>
-                            {/*<div className="block-input">*/}
-                            {/*    <input type="password" required spellCheck="false"></input>*/}
-                            {/*    <label>Пароль</label>*/}
-                            {/*</div>*/}
                             <div className="block-input">
                                 <input type={PasswordInputType} required spellCheck="false"></input>
                                 <label>Пароль</label>
-                                <span>
-                                    {ToggleIcon}
-                                </span>
+                                <span>{ToggleIcon}</span>
                             </div>
                         </form>
                     </div>
-
                     <div style={{
                         display: "flex",
                         alignItems: "center",

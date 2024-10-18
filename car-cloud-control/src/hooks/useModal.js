@@ -7,6 +7,12 @@ const useModal = () => {
         setIsShowing(!isShowing);
     }
 
+    // document.body.addEventListener("click", () => {
+    //     if (isShowing) {
+    //         setIsShowing(false);
+    //     }
+    // });
+
     return [
         isShowing,
         toggle

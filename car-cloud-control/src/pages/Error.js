@@ -2,9 +2,9 @@ import React from 'react';
 
 const Error = () => {
     return (
-        <div>
+        <main className="App" style={{ minHeight: '50vh' }}>
             Error
-        </div>
+        </main>
     );
 };
 

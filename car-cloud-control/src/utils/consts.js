@@ -1,4 +1,4 @@
-export const MAIN_ROUTE = '/'
+export const MAIN_ROUTE = '/CarCloudControl/'
 export const ADMIN_ROUTE = '/admin'
 export const LOGIN_ROUTE = '/login'
 export const REGISTRATION_ROUTE = '/registration'

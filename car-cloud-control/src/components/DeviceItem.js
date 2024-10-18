@@ -3,7 +3,7 @@ import React from 'react';
 import info from './icon/info.svg'
 import output from './icon/output.png'
 
-import './style/DeviceItem.css';
+import './style/DeviceItem.sass';
 
 function CheckStatus({status}) {
     return (status === 'online' ? <span style={{fontSize: '15px', color: '#78B591'}}>{status}</span> :

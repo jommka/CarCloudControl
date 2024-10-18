@@ -15,9 +15,6 @@ const Header = () => {
     return (
         <>
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal} />
-            <div>
-
-            </div>
             <header style={{display: "flex", justifyContent: "space-around", alignItems: "center"}} className="App">
                 <Link to={MAIN_ROUTE}>
                     <img src={icon} alt="Car Cloud Control"/>
