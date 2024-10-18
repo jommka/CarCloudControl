@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CarCloudControl/static/css/main.33e045ba.css",
+    "main.css": "/CarCloudControl/static/css/main.3e22f001.css",
     "main.js": "/CarCloudControl/static/js/main.fc89af0e.js",
     "static/media/icon.svg": "/CarCloudControl/static/media/icon.5af722f173691ba4d64caa824573e2b8.svg",
     "static/media/main_icon.svg": "/CarCloudControl/static/media/main_icon.862582014a34677ccb8dc1b8f40f2674.svg",
@@ -16,11 +16,11 @@
     "index.html": "/CarCloudControl/index.html",
     "static/media/twit.svg": "/CarCloudControl/static/media/twit.35a773dd386a891d53769cfe26895ae8.svg",
     "static/media/add.svg": "/CarCloudControl/static/media/add.b3efc96616d682a5f76470c951b49173.svg",
-    "main.33e045ba.css.map": "/CarCloudControl/static/css/main.33e045ba.css.map",
+    "main.3e22f001.css.map": "/CarCloudControl/static/css/main.3e22f001.css.map",
     "main.fc89af0e.js.map": "/CarCloudControl/static/js/main.fc89af0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.33e045ba.css",
+    "static/css/main.3e22f001.css",
     "static/js/main.fc89af0e.js"
   ]
 }
