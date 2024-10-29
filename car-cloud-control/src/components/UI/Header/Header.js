@@ -1,20 +1,21 @@
 import React from 'react';
-import {Link, NavLink} from "react-router-dom";
+import {Link, NavLink, useLocation} from "react-router-dom";
 
 import icon from './icon/main_icon.svg'
 import menu from './icon/menu.svg'
 import add from "./icon/add.svg";
 
 import {CONNECTIONS_ROUTE, MAIN_ROUTE, SESSIONS_ROUTE} from "../../../utils/consts";
-import useModal from "../../../hooks/useModal";
 import Modal from "../Modal/Modal";
+import useModal from "../../../hooks/useModal";
 
 const Header = () => {
     const [isShowingModal, toggleModal] = useModal();
+    const location = useLocation();
 
     return (
         <>
-            <Modal show={isShowingModal} onCloseButtonClick={toggleModal} />
+            <Modal location={location.pathname} show={isShowingModal} onCloseButtonClick={toggleModal} />
             <header style={{display: "flex", justifyContent: "space-around", alignItems: "center"}} className="App">
                 <Link to={MAIN_ROUTE}>
                     <img src={icon} alt="Car Cloud Control"/>

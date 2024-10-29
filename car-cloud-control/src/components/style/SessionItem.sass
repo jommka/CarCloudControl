@@ -1,0 +1,177 @@
+@use '../UI/Header/styles/Navbar' as *
+
+.session-item
+  display: flex
+  align-items: center
+  justify-content: space-around
+  width: 427px
+  border-radius: 26px
+  padding: 17px 13px
+  background-color: #141D2C
+  box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.5)
+  transform: scale(0.95)
+  transition: box-shadow 0.5s, transform 0.5s
+
+.session-container-input
+  display: flex
+  flex-direction: column
+  gap: 9px
+
+.session-button
+  @extend %style-button
+  font-size: 12px
+  font-weight: 500
+  gap: 4px
+  padding: 10px
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5)
+
+  &:active
+    transform: scale(0.98)
+
+  img
+    width: 13px
+    height: 13px
+
+.session-icon
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 10px
+  margin-top: 12px
+  padding: 17px 9px
+  background-color: rgba(217, 217, 217, 0.1)
+  border-radius: 9px
+  box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.5)
+  transform: scale(0.95)
+  transition: box-shadow 0.5s, transform 0.5s
+
+  &:hover
+    transform: scale(1)
+    box-shadow: 5px 20px 30px rgba(0,0,0,0.2)
+
+  .img
+    margin-top: -8px
+    width: 76px
+    height: 89px
+
+%font-input
+  color: #BCBCBC
+  font-size: 16px
+  font-weight: 500
+  cursor: pointer
+
+%font-label
+  color: #9A9A9A
+  font-size: 14px
+  font-weight: 400
+  padding-left: 26px
+
+.session-input
+  display: flex
+  padding: 1px
+  flex-direction: column
+  gap: 6px
+  max-width: 250px
+  width: 100%
+  transform: scale(1)
+  transition: box-shadow 0.5s, transform 0.5s
+
+  &:hover
+    transform: scale(1.05)
+    box-shadow: 5px 20px 30px rgba(0,0,0,0.2)
+
+  input
+    background-color: rgba(217, 217, 217, 0.1)
+    border-radius: 29px
+    border: none
+    padding: 10px 33px
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.5)
+    @extend %font-input
+
+    &::placeholder
+      @extend %font-input
+
+    &:focus
+      border: none
+      outline: none
+
+  label
+    @extend %font-label
+
+  span
+    position: absolute
+    cursor: pointer
+    top: 54%
+    right: 20px
+    z-index: 100
+
+    img
+      width: 20px
+      height: 20px
+
+.session-input--date
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-template-rows: auto auto
+  row-gap: 6px
+  justify-items: center
+  transform: scale(1)
+  transition: box-shadow 0.5s, transform 0.5s
+
+  .date
+    display: flex
+    max-width: 250px
+    width: 100%
+    grid-column: span 2
+    background-color: rgba(217, 217, 217, 0.1)
+    border-radius: 29px
+    padding: 7px 0
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.5)
+
+    hr
+      width: 2px
+      height: 25px
+      opacity: 18%
+      border: none
+      background-color: #8FFFBD
+
+    input
+      text-align: center
+      background-color: transparent
+      border: none
+      width: 100%
+      @extend %font-input
+
+      &::placeholder
+        @extend %font-input
+
+      &:focus
+        border: none
+        outline: none
+
+  label
+    @extend %font-label
+    padding-left: 0
+
+  &:hover
+    transform: scale(1.05)
+    box-shadow: 5px 20px 30px rgba(0,0,0,0.2)
+
+  //display: flex
+  //align-items: center
+  //justify-content: center
+  //max-width: 250px
+  //width: 100%
+  //gap: 10px
+  //
+  //.date
+  //  display: flex
+  //  flex-direction: column
+  //  align-items: center
+  //  width: 100%
+  //
+  //  input
+  //    text-align: center
+  //    width: 100%
+  //    background-color: transparent
+  //    border: none

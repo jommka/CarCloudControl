@@ -14,32 +14,53 @@
   padding: 0
 
 .modal-content
-  display: flex
-  flex-direction: column
+  display: grid
   align-items: center
-  justify-content: center
+  grid-template-columns: auto auto auto
+  grid-template-rows: auto auto auto
+  column-gap: 63px
+  row-gap: 13px
   background-color: #272C35
-  padding: 70px 100px
+  padding: 51px 65px
   border-radius: 29px
-  gap: 20px
 
-.modal-info
-  display: flex
-  align-items: center
-  justify-content: center
-  gap: 60px
+  h1
+    font-size: 30px
+    font-weight: 400
+    text-align: center
+    margin-bottom: 30px
+    grid-column: span 3
+
+.modal-img
+  width: 120px
+  height: 120px
 
 .line
   border-left: 2px solid #8FFFBD
-  height: 250px
+  height: 300px
   opacity: 0.3
+
+.button-container
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 40px
+  grid-column: 3
+  grid-row: 3
 
 form
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
-  margin-left: 10px
+
+%input-label
+  top: -15px
+  left: 13px
+  font-size: 17px
+  font-weight: 400
+  padding: 0 4px 0 0
+  background: transparent
 
 .block-input
   display: flex
@@ -75,34 +96,21 @@ form
     pointer-events: none
     transition: 0.3s
 
-#label
-  font-size: 20px
-  font-weight: 300
-  color: #C2C9D1
+  input[type="text"]
+    &:focus
+      border: 2px solid rgba(221, 234, 245, 0.4)
+    &:focus ~ label
+      @extend %input-label
+    &:valid ~ label
+      @extend %input-label
 
-%input-label
-  top: -15px
-  left: 13px
-  font-size: 17px
-  font-weight: 400
-  padding: 0 4px 0 0
-  background: #272C35
-
-input[type="text"]
-  &:focus
-    border: 2px solid rgba(221, 234, 245, 0.4)
-  &:focus ~ label
-    @extend %input-label
-  &:valid ~ label
-    @extend %input-label
-
-input[type="password"]
-  &:focus
-    border: 2px solid rgba(221, 234, 245, 0.4)
-  &:focus ~ label
-    @extend %input-label
-  &:valid ~ label
-    @extend %input-label
+  input[type="password"]
+    &:focus
+      border: 2px solid rgba(221, 234, 245, 0.4)
+    &:focus ~ label
+      @extend %input-label
+    &:valid ~ label
+      @extend %input-label
 
 .block-input
   span
@@ -116,6 +124,40 @@ input[type="password"]
       width: 30px
       height: 30px
 
+//.connections-code
+//  input[type="text"]
+//    &:focus ~ label
+//      font-size: 20px
+//    &:valid ~ label
+//      font-size: 20px
+
+.add-container
+  display: flex
+  flex-direction: column
+  gap: 30px
+  background-color: rgba(217, 217, 217, 0.1)
+  border-radius: 9px
+  padding: 23px 29px
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
+
+.device-container
+  gap: 0
+  padding: 24px 39px
+
+.sessions-block
+  display: flex
+  align-content: center
+  justify-content: space-between
+  gap: 30px
+
+  p
+    font-size: 20px
+    color: #98B5A3
+    background-color: rgba(250, 250, 250, 0.1)
+    padding: 15px 23px
+    border-radius: 9px
+    margin-top: auto
+    margin-bottom: auto
 
 
 @keyframes openModal

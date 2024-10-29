@@ -1,5 +1,5 @@
 import React from 'react';
-import {Device} from "../store/Device";
+import {Device} from "../store/Item";
 import DeviceItem from "../components/DeviceItem";
 
 const Devices = () => {
