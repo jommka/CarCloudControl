@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/CarCloudControl/static/css/main.3e22f001.css",
-    "main.js": "/CarCloudControl/static/js/main.fc89af0e.js",
-    "static/media/icon.svg": "/CarCloudControl/static/media/icon.5af722f173691ba4d64caa824573e2b8.svg",
-    "static/media/main_icon.svg": "/CarCloudControl/static/media/main_icon.862582014a34677ccb8dc1b8f40f2674.svg",
-    "static/media/insta.svg": "/CarCloudControl/static/media/insta.7d75560ce876f286ef7d0801782f9578.svg",
-    "static/media/whatsapp.svg": "/CarCloudControl/static/media/whatsapp.ad2a5194dccdf45d267ef28e5b3a8150.svg",
-    "static/media/telegram.svg": "/CarCloudControl/static/media/telegram.f66a700f5264ed6f10d3f20407b4c694.svg",
-    "static/media/facebook.svg": "/CarCloudControl/static/media/facebook.5df6f6a09b0e22a4dcda45102c50ea6a.svg",
-    "static/media/menu.svg": "/CarCloudControl/static/media/menu.7ae3cf1cb630cd85c1b3eb83b66a18b5.svg",
-    "static/media/info.svg": "/CarCloudControl/static/media/info.8f287389dbf174cfee514a5352d4fe3c.svg",
-    "static/media/arrow.svg": "/CarCloudControl/static/media/arrow.ee01efc2c11934af3445f08b428b27bf.svg",
-    "static/media/eye_off.svg": "/CarCloudControl/static/media/eye_off.61e9bfe7b78b0066ec80f499b403898e.svg",
-    "static/media/eye.svg": "/CarCloudControl/static/media/eye.41bfc4335a6b2241b0f47676cb574eb3.svg",
+    "main.css": "/CarCloudControl/static/css/main.0874a493.css",
+    "main.js": "/CarCloudControl/static/js/main.a1742860.js",
+    "static/media/connection.png": "/CarCloudControl/static/media/connection.34fc5e6871b428b0f880.png",
+    "static/media/icon.svg": "/CarCloudControl/static/media/icon.550a0ea04e155bf4d56155488bbd0811.svg",
+    "static/media/main_icon.svg": "/CarCloudControl/static/media/main_icon.c41c6e5fa74a3896a741e731ff6a51ca.svg",
+    "static/media/insta.svg": "/CarCloudControl/static/media/insta.039e3abdc87f8759d4b1a209bd7a7133.svg",
+    "static/media/whatsapp.svg": "/CarCloudControl/static/media/whatsapp.586a5ff28be56a7fc939044d6116e1f4.svg",
+    "static/media/telegram.svg": "/CarCloudControl/static/media/telegram.5d084a79b654d904ac202848c87e6e51.svg",
+    "static/media/information.svg": "/CarCloudControl/static/media/information.78ab7a60c2f3c562e16c0be36f7e4696.svg",
+    "static/media/facebook.svg": "/CarCloudControl/static/media/facebook.d8dd1387f429e5da677833edd3510f1c.svg",
+    "static/media/menu.svg": "/CarCloudControl/static/media/menu.69fdc84ee8b0de45dacd6c18b099f8c9.svg",
+    "static/media/info.svg": "/CarCloudControl/static/media/info.1592560ff1ebf4c09629aea63647765e.svg",
+    "static/media/arrow.svg": "/CarCloudControl/static/media/arrow.c8c67013a4fee686ae02cee035d06bfa.svg",
+    "static/media/eye_off.svg": "/CarCloudControl/static/media/eye_off.cbe814dd018061748a8271341db43f5b.svg",
+    "static/media/eye.svg": "/CarCloudControl/static/media/eye.0b8fab7f52f129762b150f626ac1f8b4.svg",
     "index.html": "/CarCloudControl/index.html",
-    "static/media/twit.svg": "/CarCloudControl/static/media/twit.35a773dd386a891d53769cfe26895ae8.svg",
-    "static/media/add.svg": "/CarCloudControl/static/media/add.b3efc96616d682a5f76470c951b49173.svg",
-    "main.3e22f001.css.map": "/CarCloudControl/static/css/main.3e22f001.css.map",
-    "main.fc89af0e.js.map": "/CarCloudControl/static/js/main.fc89af0e.js.map"
+    "static/media/twit.svg": "/CarCloudControl/static/media/twit.bbe72368e01098cbd3a75ad06b58ad45.svg",
+    "static/media/add.svg": "/CarCloudControl/static/media/add.e6cdbdf02567fa4ec0f909613983bbed.svg",
+    "main.0874a493.css.map": "/CarCloudControl/static/css/main.0874a493.css.map",
+    "main.a1742860.js.map": "/CarCloudControl/static/js/main.a1742860.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e22f001.css",
-    "static/js/main.fc89af0e.js"
+    "static/css/main.0874a493.css",
+    "static/js/main.a1742860.js"
   ]
 }
